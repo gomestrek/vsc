@@ -118,7 +118,7 @@
 								This KML file contains <xsl:value-of select="count(kml:kml/kml:Document/kml:Folder/kml:Placemark)"/> Locations.
 							</p>
 							<p class="expl">
-								<a href="/sitemap_index.xml">&#8592; Indexação do Sitemap</a>							</p>
+								<a href="https://vascoradiadores.com.br/sitemap_index.xml">&#8592; Indexação do Sitemap</a>							</p>
 							<table id="sitemap" cellpadding="3">
 								<thead>
 									<tr>
@@ -213,7 +213,7 @@
 									Este sitemap XML contém <strong><xsl:value-of select="count(sitemap:urlset/sitemap:url)"/></strong> URLs.								</p>
 
 								<p class="expl">
-									<a href="/sitemap_index.xml">&#8592; Indexação do Sitemap</a>								</p>
+									<a href="https://vascoradiadores.com.br/sitemap_index.xml">&#8592; Indexação do Sitemap</a>								</p>
 
 								<table id="sitemap" cellpadding="3">
 
