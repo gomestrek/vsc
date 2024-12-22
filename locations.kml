@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+	<Document>
+		<name>Locations for Vasco Radiadores - Troca e Conserto de radiadores em Salvador</name>
+		<open>1</open>
+		<Folder>
+			<atom:link href="https://vascoradiadores.com.br/" />
+			<Placemark>
+				<name><![CDATA[Vasco Radiadores - Troca e Conserto de radiadores em Salvador]]></name>
+				<description><![CDATA[Vasco Radiadores - ]]></description>
+				<address><![CDATA[Av. Vasco da Gama, 870-B, Salvador, Bahia, 40290350, BR]]></address>
+				<phoneNumber><![CDATA[+55 71 9 9116-4585]]></phoneNumber>
+				<atom:link href="https://vascoradiadores.com.br/"/>
+				<LookAt>
+					<altitude>0</altitude>
+					<range></range>
+					<tilt>0</tilt>
+				</LookAt>
+				<Point>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</kml>
+

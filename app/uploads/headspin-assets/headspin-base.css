@@ -1,0 +1,195 @@
+html:root,
+[data-hsx*="light"],
+html:root[data-hsx*="dark"] [data-hsx*="inverted"] {
+
+    --hcl-on-brand: #ffffff;
+    --hcl-brand-1: #fbfdff;
+    --hcl-brand-2: #f4faff;
+    --hcl-brand-3: #e6f4fe;
+    --hcl-brand-4: #d5efff;
+    --hcl-brand-5: #c2e5ff;
+    --hcl-brand-6: #acd8fc;
+    --hcl-brand-7: #8ec8f6;
+    --hcl-brand-8: #5eb1ef;
+    --hcl-brand-9: #0090ff;
+    --hcl-brand-10: #0588f0;
+    --hcl-brand-11: #0d74ce;
+    --hcl-brand-12: #113264;
+    --hcl-on-neutral: #fff;
+    --hcl-neutral-1: #fdfcfd;
+    --hcl-neutral-2: #faf9fb;
+    --hcl-neutral-3: #f2eff3;
+    --hcl-neutral-4: #eae7ec;
+    --hcl-neutral-5: #e3dfe6;
+    --hcl-neutral-6: #dbd8e0;
+    --hcl-neutral-7: #d0cdd7;
+    --hcl-neutral-8: #bcbac7;
+    --hcl-neutral-9: #8e8c99;
+    --hcl-neutral-10: #84828e;
+    --hcl-neutral-11: #65636d;
+    --hcl-neutral-12: #211f26;
+}
+
+:root:root[data-hsx*="dark"],
+[data-hsx*="dark"],
+[data-hsx*="invert"] {
+
+    --hcl-brand-1: #0d1520;
+    --hcl-brand-2: #111927;
+    --hcl-brand-3: #0d2847;
+    --hcl-brand-4: #003362;
+    --hcl-brand-5: #004074;
+    --hcl-brand-6: #104d87;
+    --hcl-brand-7: #205d9e;
+    --hcl-brand-8: #2870bd;
+    --hcl-brand-9: #0090ff;
+    --hcl-brand-10: #3b9eff;
+    --hcl-brand-11: #70b8ff;
+    --hcl-brand-12: #c2e6ff;
+    --hcl-neutral-1: #121113;
+    --hcl-neutral-2: #1a191b;
+    --hcl-neutral-3: #232225;
+    --hcl-neutral-4: #2b292d;
+    --hcl-neutral-5: #323035;
+    --hcl-neutral-6: #3c393f;
+    --hcl-neutral-7: #49474e;
+    --hcl-neutral-8: #625f69;
+    --hcl-neutral-9: #6f6d78;
+    --hcl-neutral-10: #7c7a85;
+    --hcl-neutral-11: #b5b2bc;
+    --hcl-neutral-12: #eeeef0;
+}
+
+:root {
+    /*Theme Headspin*/
+
+    --hsx-page-width: 1366px;
+    --hsx-min-offset: 20px;
+    --hsx-page-gap: 20px;
+    /*Breakdance connector*/
+    --bde-section-width: 1406px !important;
+    --bde-section-horizontal-padding: 20px !important;
+    --bde-column-gap: 20px !important;
+    --hsx-bleed-offset: max(calc(((100vw - (var(--bde-section-width))) / 2) + var(--bde-section-horizontal-padding)), calc(var(--bde-section-horizontal-padding) + 5px));
+}
+
+:root {
+    --headspin-theme-API: eyJ0aGVtZSI6ImxpZ2h0In0=;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    line-height: calc(4px + 2ex)
+}
+
+html:root {
+    /*Headspin System*/
+    --hrd-s: 6px;
+    --hrd-m: 8px;
+    --hrd-l: 12px;
+    --hrd-pill: 500px;
+    --hrd-atom: 6px;
+
+}
+
+html:root {
+    /*Headspin System*/
+    --hfs-h0: clamp(3.0625rem, 2.151rem + 3.044vw, 4.75rem);
+    --hfs-h1: clamp(2.4375rem, 1.830rem + 2.029vw, 3.5625rem);
+    --hfs-h2: clamp(1.9375rem, 1.532rem + 1.353vw, 2.6875rem);
+    --hfs-h3: clamp(1.5625rem, 1.326rem + 0.789vw, 2rem);
+    --hfs-h4: clamp(1.25rem, 1.115rem + 0.451vw, 1.5rem);
+    --hfs-h5: clamp(1rem, 0.932rem + 0.225vw, 1.125rem);
+    --hfs-h6: clamp(1rem, 0.932rem + 0.225vw, 1.125rem);
+    --hfs-text-l: clamp(1.25rem, 1.115rem + 0.451vw, 1.5rem);
+    --hfs-text-m: clamp(1rem, 0.932rem + 0.225vw, 1.125rem);
+    --hfs-text-s: clamp(0.875rem, 0.875rem + 0.000vw, 0.875rem);
+    --hsp-xxl: clamp(3.5625rem, 2.921rem + 2.142vw, 4.75rem);
+    --hsp-xl: clamp(2.6875rem, 2.215rem + 1.578vw, 3.5625rem);
+    --hsp-l: clamp(2rem, 1.629rem + 1.240vw, 2.6875rem);
+    --hsp-m: clamp(1.5rem, 1.230rem + 0.902vw, 2rem);
+    --hsp-s: clamp(1.125rem, 0.922rem + 0.676vw, 1.5rem);
+    --hsp-xs: clamp(0.8125rem, 0.644rem + 0.564vw, 1.125rem);
+    --hsp-xxs: clamp(0.625rem, 0.524rem + 0.338vw, 0.8125rem);
+    --hss-xxl: clamp(10.6875rem, 8.797rem + 6.313vw, 14.1875rem);
+    --hss-xl: clamp(8rem, 6.549rem + 4.848vw, 10.6875rem);
+    --hss-l: clamp(6rem, 4.920rem + 3.608vw, 8rem);
+    --hss-m: clamp(4.5rem, 3.690rem + 2.706vw, 6rem);
+    --hss-s: clamp(3.375rem, 2.767rem + 2.029vw, 4.5rem);
+    --hss-xs: clamp(2.5rem, 2.027rem + 1.578vw, 3.375rem);
+    --hss-xxs: clamp(1.875rem, 1.537rem + 1.127vw, 2.5rem);
+
+}
+
+@supports (font-size: 1cqi) {
+    html:root {
+        --hfs-h0: clamp(3.0625rem, 2.151rem + 3.044cqi, 4.75rem);
+        --hfs-h1: clamp(2.4375rem, 1.830rem + 2.029cqi, 3.5625rem);
+        --hfs-h2: clamp(1.9375rem, 1.532rem + 1.353cqi, 2.6875rem);
+        --hfs-h3: clamp(1.5625rem, 1.326rem + 0.789cqi, 2rem);
+        --hfs-h4: clamp(1.25rem, 1.115rem + 0.451cqi, 1.5rem);
+        --hfs-h5: clamp(1rem, 0.932rem + 0.225cqi, 1.125rem);
+        --hfs-h6: clamp(1rem, 0.932rem + 0.225cqi, 1.125rem);
+        --hfs-text-l: clamp(1.25rem, 1.115rem + 0.451cqi, 1.5rem);
+        --hfs-text-m: clamp(1rem, 0.932rem + 0.225cqi, 1.125rem);
+        --hfs-text-s: clamp(0.875rem, 0.875rem + 0.000cqi, 0.875rem);
+        --hsp-xxl: clamp(3.5625rem, 2.921rem + 2.142cqi, 4.75rem);
+        --hsp-xl: clamp(2.6875rem, 2.215rem + 1.578cqi, 3.5625rem);
+        --hsp-l: clamp(2rem, 1.629rem + 1.240cqi, 2.6875rem);
+        --hsp-m: clamp(1.5rem, 1.230rem + 0.902cqi, 2rem);
+        --hsp-s: clamp(1.125rem, 0.922rem + 0.676cqi, 1.5rem);
+        --hsp-xs: clamp(0.8125rem, 0.644rem + 0.564cqi, 1.125rem);
+        --hsp-xxs: clamp(0.625rem, 0.524rem + 0.338cqi, 0.8125rem);
+        --hss-xxl: clamp(10.6875rem, 8.797rem + 6.313cqi, 14.1875rem);
+        --hss-xl: clamp(8rem, 6.549rem + 4.848cqi, 10.6875rem);
+        --hss-l: clamp(6rem, 4.920rem + 3.608cqi, 8rem);
+        --hss-m: clamp(4.5rem, 3.690rem + 2.706cqi, 6rem);
+        --hss-s: clamp(3.375rem, 2.767rem + 2.029cqi, 4.5rem);
+        --hss-xs: clamp(2.5rem, 2.027rem + 1.578cqi, 3.375rem);
+        --hss-xxs: clamp(1.875rem, 1.537rem + 1.127cqi, 2.5rem);
+
+    }
+}
+
+html:root,
+[data-hsx*="light"],
+html:root[data-hsx*="dark"] [data-hsx*="inverted"] {
+
+    --bde-headings-color: var(--hcl-neutral-12);
+    --bde-body-text-color: var(--hcl-neutral-11);
+    --bde-background-color: var(--hcl-neutral-1);
+    --bde-brand-primary-color: var(--hcl-brand-9);
+    --bde-brand-primary-color-hover: var(--hcl-brand-10);
+    --bde-links-color: var(--hcl-brand-9);
+    --bde-links-color-hover: var(--hcl-brand-10);
+}
+
+:root:root[data-hsx*="dark"],
+[data-hsx*="dark"],
+html:root[data-hsx*="light"] [data-hsx*="invert"] {
+
+    --bde-headings-color: var(--hcl-neutral-12);
+    --bde-body-text-color: var(--hcl-neutral-11);
+    --bde-background-color: var(--hcl-neutral-1);
+    --bde-brand-primary-color: var(--hcl-brand-9);
+    --bde-brand-primary-color-hover: var(--hcl-brand-10);
+    --bde-links-color: var(--hcl-brand-9);
+    --bde-links-color-hover: var(--hcl-brand-10);
+}
+
+html:root {
+    --bde-h1-font-size: var(--hfs-h1);
+    --bde-h2-font-size: var(--hfs-h2);
+    --bde-h3-font-size: var(--hfs-h3);
+    --bde-h4-font-size: var(--hfs-h4);
+    --bde-h5-font-size: var(--hfs-h5);
+    --bde-h6-font-size: var(--hfs-h6);
+    --bde-body-font-size: var(--hfs-text-m);
+
+}
